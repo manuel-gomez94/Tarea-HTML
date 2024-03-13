@@ -1,0 +1,53 @@
+header {
+    background-color: rgb(7, 0, 0);
+}
+.icono {
+    max-width: 25px;
+    height: 25px;
+}
+
+img {
+    max-width: 25px;
+    height: 25px;
+}
+
+h1 {
+    font-style: normal;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+body {
+    background-color: black;
+    color: blueviolet;
+}
+/*
+ul {
+    display: flex;
+
+}*/
+
+.navegacion{
+    display: flex;
+    flex: 1;
+    
+}
+
+.estiloNav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.chipa{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.derecha{
+    display: flex;
+    align-self: flex-end;
+}
